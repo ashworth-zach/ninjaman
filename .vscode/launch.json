@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/zach/Documents/academy-ninja-master/index.html",
+            "url": "file:///C:/Users/henry/Documents/ninjaman-master/ninjaman/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
