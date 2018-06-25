@@ -22,12 +22,10 @@
         for (var i = 0; i < 10; i++) {
             var arr = [];
             for (var j = 0; j < world[0].length; j++) {
-                var random = Math.floor((Math.random() * 4) + 1) -1;
+                var random = Math.floor((Math.random() * 4) + 1) - 1;
                 arr.push(random);
             }
             world.push(arr);
-
-
         }
         for (var x = 0; x < world.length; x++) {
             if (world[x][0] == world[x][0]) {
@@ -63,7 +61,7 @@
         document.getElementById('ninjaman').style.left = ninjaman.x * 40 + 'px'
     }
     document.onkeydown = function (e) {
-        console.log(e.keyCode);
+        //console.log(e.keyCode);
         if (e.keyCode == 37) {
             ninjaman.x--
             if (world[ninjaman.y][ninjaman.x] == 1) {
