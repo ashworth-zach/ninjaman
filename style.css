@@ -43,6 +43,29 @@
     left: 40px;
     top: 40px;
 }
+#bluey {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('images/bluey.gif');
+    background-size: contain;
+    position: absolute;
+    left: 600px;
+    top: 40px;
+}
+#red {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('images/pumpky.gif');
+    background-size: contain;
+    position: absolute;
+    left: 600px;
+    top: 520px;
+    z-index: 1;
+}
 #score {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
